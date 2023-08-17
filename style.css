@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+.container {
+    width: 90%;
+    max-width: fit-content;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+    border-radius: 10px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.9);
+}
+
+.container * {
+    border: none;
+    outline: none;
+}
+
+.input {
+    display: grid;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+input[type="date"],
+input,
+button {
+    border: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    transition: border-color 0.3s;
+    font-weight: 500;
+}
+
+input[type="date"] {
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
+#DateInput{
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+input:focus,
+button:focus,
+input[type="date"]:focus {
+    border-color: rgb(144, 33, 51);
+}
+
+button {
+    color: #fff;
+    background-color: darkred;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: rgb(32, 4, 9);
+}
+
+.output {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 5px;
+    padding: 20px;
+}
+
+.output div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(32, 4, 9);
+    color: #fff;
+    font-weight: 600;
+}
+
+span {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
