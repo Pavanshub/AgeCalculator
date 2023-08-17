@@ -2,7 +2,7 @@
 
 ## ✨  Description ✨
 
-### The Age Calculator is a simple tool that allows users to calculate their age based on their date of birth. This README file provides essential information for understanding, setting up, and using the Age Calculator application.
+### The Age Calculator is a simple tool that allows users to calculate their age based on their date of birth.
 
  **[Live Demo](https://agecalculatorbykrishna.netlify.app/)**   
  
